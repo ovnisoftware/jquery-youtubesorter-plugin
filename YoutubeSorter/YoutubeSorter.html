@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style>
+        img {
+            width: 125px;
+        }
+    </style>
+    <script src="Scripts/jquery-2.1.1.min.js"></script>
+    <script src="Scripts/jquery.tablesorter.min.js"></script>
+    <script src="Scripts/jquery.youtubesorter.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#myTable").youtubesort(["khanacademy", "KhanAcademyEspanol", "Microsoft", "julioprofe"], 5);
+        });
+    </script>
+</head>
+<body>
+    <table id="myTable" class="tablesorter">
+        <thead>
+            <tr>
+                <th>Thumbnail</th>
+                <th>Date</th>
+                <th>Author</th>
+                <th>Title</th>
+                <th>Length</th>
+            </tr>
+        </thead>
+        <tbody id="myTbody"></tbody>
+    </table>
+</body>
+</html>
