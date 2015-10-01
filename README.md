@@ -1,10 +1,9 @@
 jquery-youtubesorter-plugin
 ===========================
 
-This is a jQuery plugin that will list the newest videos of your favorite Youtube channels and sort them by date.
+##Update: Unfortunately, this no longer works because Youtube has changed their API.
 
-You can see how it works here:
-  http://ovnisoftware.com/YoutubeViewer
+This is a jQuery plugin that will list the newest videos of your favorite Youtube channels and sort them by date.
 
 I used the tablesorter jquery plugin for this so I would like to thank them for making it.  You can see their work here:
   https://github.com/christianbach/tablesorter
