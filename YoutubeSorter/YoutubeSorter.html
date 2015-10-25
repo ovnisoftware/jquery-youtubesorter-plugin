@@ -8,11 +8,11 @@
         }
     </style>
     <script src="Scripts/jquery-2.1.1.min.js"></script>
+    <script src="Scripts/jquery.ShowVideos.js"></script>
     <script src="Scripts/jquery.tablesorter.min.js"></script>
-    <script src="Scripts/jquery.youtubesorter.js"></script>
     <script>
         $(document).ready(function () {
-            $("#myTable").youtubesort(["khanacademy", "KhanAcademyEspanol", "Microsoft", "julioprofe"], 5);
+            $("#myTable").youtubesort(["khanacademy", "Microsoft", "GoogleDevelopers"], 3);
         });
     </script>
 </head>
@@ -24,7 +24,6 @@
                 <th>Date</th>
                 <th>Author</th>
                 <th>Title</th>
-                <th>Length</th>
             </tr>
         </thead>
         <tbody id="myTbody"></tbody>
